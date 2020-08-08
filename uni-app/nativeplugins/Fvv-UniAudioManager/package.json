@@ -1,0 +1,20 @@
+{
+    "name": "Fvv-UniAudioManager",
+    "id": "Fvv-UniAudioManager",
+    "version": "1.0.0",
+    "description": "安卓音频管理",
+    "_dp_type":"nativeplugin",
+    "_dp_nativeplugin":{
+        "android": {
+            "plugins": [
+                {
+                  "type": "module",
+                  "name": "Fvv-UniAudioManager",
+                  "class": "uni.fvv.audiomanager.UniAudioManager"
+                }
+            ],
+			"integrateType": "aar",
+            "minSdkVersion": "17"
+        }
+    }
+}
